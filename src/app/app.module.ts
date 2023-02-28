@@ -1,4 +1,6 @@
+// Angular
 import { NgModule } from '@angular/core';
+import { HttpClientModule } from '@angular/common/http';
 import { BrowserModule } from '@angular/platform-browser';
 
 // aplicação
@@ -9,7 +11,8 @@ import { AppRoutingModule } from './app-routing.module';
   declarations: [AppComponent],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
